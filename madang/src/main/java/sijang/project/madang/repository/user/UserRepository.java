@@ -6,4 +6,5 @@ import sijang.project.madang.domain.Users;
 
 public interface UserRepository extends UserMapper, JpaRepository<Users,Long> {
 
+
 }
