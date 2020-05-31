@@ -1,4 +1,4 @@
-package sijang.project.madang.domain;
+package sijang.project.madang.domain.user;
 
 import lombok.Data;
 

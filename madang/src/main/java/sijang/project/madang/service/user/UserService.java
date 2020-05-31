@@ -1,9 +1,9 @@
-package sijang.project.madang.service;
+package sijang.project.madang.service.user;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import sijang.project.madang.domain.UserResponseDto;
+import sijang.project.madang.domain.user.UserResponseDto;
 import sijang.project.madang.repository.user.UserRepository;
 
 import java.util.List;

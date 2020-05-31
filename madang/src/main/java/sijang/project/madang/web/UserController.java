@@ -1,11 +1,10 @@
 package sijang.project.madang.web;
 
 import lombok.*;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import sijang.project.madang.domain.UserResponseDto;
-import sijang.project.madang.service.UserService;
+import sijang.project.madang.domain.user.UserResponseDto;
+import sijang.project.madang.service.user.UserService;
 
 import java.util.List;
 

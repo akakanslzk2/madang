@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
-import sijang.project.madang.domain.Users;
+import sijang.project.madang.domain.user.Users;
 import sijang.project.madang.repository.user.UserRepository;
 
 @Component
