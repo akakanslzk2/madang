@@ -10,4 +10,3 @@ spring:
     open-in-view: false
     generate-ddl: true
 
-

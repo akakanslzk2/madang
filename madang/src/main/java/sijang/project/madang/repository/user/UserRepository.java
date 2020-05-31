@@ -1,4 +1,9 @@
 package sijang.project.madang.repository.user;
 
-public class UserRepository {
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import sijang.project.madang.domain.Users;
+
+public interface UserRepository extends UserMapper, JpaRepository<Users,Long> {
+
 }
